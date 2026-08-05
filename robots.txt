@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anvarovic576.github.io/jalolov_24/sitemap.xml
