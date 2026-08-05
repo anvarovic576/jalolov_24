@@ -189,3 +189,35 @@ button {
 button:hover {
   opacity: 0.8;
 }
+header {
+  background: linear-gradient(135deg, #000428, #004e92);
+  padding: 40px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 55px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  background: linear-gradient(90deg, #00f2ff, #ffffff, #00ff88);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 20px rgba(0,255,255,0.5);
+  animation: glow 2s infinite alternate;
+}
+
+header p {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #00ffff;
+  }
+
+  to {
+    text-shadow: 0 0 30px #00ff88;
+  }
+}
