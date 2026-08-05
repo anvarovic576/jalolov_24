@@ -221,3 +221,33 @@ header p {
     text-shadow: 0 0 30px #00ff88;
   }
 }
+body {
+  background: linear-gradient(135deg, #f8f8f8, #e8e8e8);
+}
+
+header {
+  background: linear-gradient(135deg, #111, #333);
+  padding: 45px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 55px;
+  font-weight: 900;
+  color: #ffd700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow:
+    0 0 10px #ffd700,
+    0 0 20px #ff9900;
+}
+
+header p {
+  color: white;
+  font-size: 22px;
+}
+
+.news {
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
