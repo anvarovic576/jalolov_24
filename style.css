@@ -115,3 +115,30 @@ nav {
 h1 {
   font-size: 40px;
 }
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.news {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.news:hover {
+  transform: scale(1.02);
+}
+
+.news h2 {
+  font-size: 24px;
+}
+
+header h1 {
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+
+nav a {
+  font-weight: bold;
+}
