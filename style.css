@@ -28,3 +28,14 @@ header p {
   border: 1px solid #ddd;
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
+.profile {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  border: 3px solid #ffd700;
+  box-shadow: 0 0 15px #ffd700;
+}
