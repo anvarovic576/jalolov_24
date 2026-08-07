@@ -2,154 +2,59 @@
 <html lang="uz">
 <head>
 <meta charset="UTF-8">
-
-<meta name="description" content="Jalolov News - O‘zbekiston va dunyo yangiliklari">
-<meta name="keywords" content="yangiliklar, sport, texnologiya, video">
-<meta name="author" content="Jalolov">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Jalolov News</title>
+<title>GoalZone</title>
 
 <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
-<img class="profile" src="profil.jpg" alt="Profil">
-<header>
-<h1>📰 Jalolov News</h1><img class="profile" src="profil.jpg" alt="Jalolov">
-<p>Eng so‘nggi yangiliklar</p>
-</header>
 
+<header class="header">
 
-<nav>
-<a href="#home">Bosh sahifa</a>
-<a href="#sport">Sport</a>
-<a href="#world">Dunyo</a>
-<a href="#tech">Texnologiya</a>
-<a href="#video">Video</a>
+<div class="logo">
+<img src="images/logo.png" alt="GoalZone">
+<h1>GoalZone</h1>
+</div>
+
+<nav class="menu">
+<a href="#">Home</a>
+<a href="#">News</a>
+<a href="#">Transfers</a>
+<a href="#">Matches</a>
+<a href="#">Videos</a>
 </nav>
 
+<div class="icons">
+<i class="fa-solid fa-magnifying-glass"></i>
+<i class="fa-solid fa-bell"></i>
+<i class="fa-solid fa-user"></i>
+</div>
 
-<div class="main">
+</header>
 
+<section class="hero">
 
-<section id="home" class="news">
+<img src="images/hero.jpg" alt="Football">
 
-<img src="https://picsum.photos/900/400">
+<div class="hero-content">
 
-<h2>📰 Bugungi asosiy yangilik</h2>
+<span class="live">🔴 LIVE</span>
 
-<p>
-O‘zbekiston va dunyodagi eng so‘nggi yangiliklarni Jalolov News orqali kuzating.
-</p>
+<h1>Football News & Live Scores</h1>
 
-<button onclick="xabar()">Batafsil o‘qish</button>
+<p>Latest football news, transfers and match highlights.</p>
+
+<button>Read More</button>
+
+</div>
 
 </section>
-
-
-
-<div class="news">
-
-<img src="https://picsum.photos/600/300?5">
-
-<h2>🚀 Yangi texnologiyalar rivojlanmoqda</h2>
-
-<p>
-Sun'iy intellekt va zamonaviy texnologiyalar dunyoni o‘zgartirmoqda.
-</p>
-
-<small>2026-yil</small>
-
-</div>
-
-
-
-<div class="news">
-
-<img src="https://picsum.photos/600/300?6">
-
-<h2>🏆 Sport olamidagi yangiliklar</h2>
-
-<p>
-Futbol va boshqa sport turlaridagi muhim voqealar.
-</p>
-
-<small>2026-yil</small>
-
-</div>
-
-
-
-<div class="news">
-
-<img src="https://picsum.photos/600/300?7">
-
-<h2>🌍 Dunyo yangiliklari</h2>
-
-<p>
-Jahondagi muhim voqealar va yangiliklar.
-</p>
-
-<small>2026-yil</small>
-
-</div>
-
-
-
-<div id="sport" class="news">
-
-<h2>⚽ Sport</h2>
-
-<p>
-Futbol yangiliklari va sport olamidagi xabarlar.
-</p>
-
-</div>
-
-
-
-<div id="world" class="news">
-
-<h2>🌍 Dunyo</h2>
-
-<p>
-Xalqaro yangiliklar va muhim voqealar.
-</p>
-
-</div>
-
-
-
-<div id="tech" class="news">
-
-<h2>📱 Texnologiya</h2>
-
-<p>
-Yangi qurilmalar, sun'iy intellekt va innovatsiyalar.
-</p>
-
-</div>
-
-
-
-<div id="video" class="news">
-
-<h2>🎥 Video yangiliklar</h2>
-
-<video controls width="100%">
-<source src="video.mp4" type="video/mp4">
-</video>
-
-</div>
-
-
-
-</div>
-
-
-<script src="script.js"></script>
-
-</body>
-</html>
